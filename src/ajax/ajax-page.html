@@ -1,3 +1,14 @@
-<h3>
-  debt
-</h3>
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">(AJAX) TV Shows</h3>
+  </div>
+  <div class="panel-body">
+    <p ng-if="!channels.length">Loading...</p>
+    <ul ng-if="channels.length">
+      <li ng-repeat="channel in channels">
+        {{channel.name}}
+        <span>Channel #{{channel.service_id}}</span>
+      </li>
+    </ul>
+  </div>
+</div>

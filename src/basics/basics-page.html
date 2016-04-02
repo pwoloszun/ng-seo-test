@@ -1,13 +1,16 @@
 <div class="panel panel-info">
   <div class="panel-heading">
-    <h3 class="panel-title">TV Shows</h3>
+    <h3 class="panel-title">Super Heroes</h3>
   </div>
   <div class="panel-body">
-    <p ng-if="!channels.length">Loading...</p>
-    <ul ng-if="channels.length">
-      <li ng-repeat="channel in channels">
-        {{channel.name}}
-        <span>Channel #{{channel.service_id}}</span>
+    <ul>
+      <li ng-repeat="hero in superHeroes">
+        <p>
+          Name: {{hero.name}}
+        </p>
+        <div>
+          Age: {{hero.age}}
+        </div>
       </li>
     </ul>
   </div>

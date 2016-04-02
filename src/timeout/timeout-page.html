@@ -1,3 +1,17 @@
-<h3>
-  debt
-</h3>
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Timeout Super Heroes</h3>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <li ng-repeat="hero in superHeroes">
+        <p>
+          Name: {{hero.name}}
+        </p>
+        <div>
+          ID: {{hero.id}}
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
