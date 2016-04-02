@@ -1,0 +1,17 @@
+======
+FireFox:
+
+Navigate to the site to which you’ve given permission
+Go to the Tools menu, then select Page Info
+Select the Permissions tab
+Change the setting for Share Location
+
+======
+Chrome:
+
+Click the Chrome menu Chrome menu on the browser toolbar.
+Select Settings.
+Click Show advanced settings.
+In the "Privacy" section, click Content settings.
+In the dialog that appears, scroll down to the "Location" section.
+Click Manage exceptions.

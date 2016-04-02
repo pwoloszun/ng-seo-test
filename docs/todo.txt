@@ -1,0 +1,22 @@
+promises:
+1) geo location: locate btn -> confirm dialog + City name -> gmap marker
+
+e2e tests
+
+html5
+
+SEO
+
+optimization
+
+auth
+
+$apply
+$digest
+$watch
+
+design
+
+directives: reuse ng-model, transclude, controller, compile etc
+
+modules (for generic features)
